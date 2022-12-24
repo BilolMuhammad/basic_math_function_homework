@@ -1,4 +1,4 @@
-import math
+from math import floor
 
 
 def main(a, b):
@@ -11,7 +11,7 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return math.floor(a), math.floor(b)
+    return floor(int(a)/int(b))
 
 
-print(main(3.4, 5.5))
+print(main(7, 5))
